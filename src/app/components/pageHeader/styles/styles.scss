@@ -1,0 +1,76 @@
+.page-header {
+
+  &__container {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+    min-width: 1000px;
+  }
+
+  &__title-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__filters-container {
+    display: flex;
+    margin-left: auto;
+  }
+
+  &__buttons {
+    color: #344563;
+  }
+
+  &__buttons-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__import-export-icon {
+    height: 20px;
+  }
+
+  &__refresh-icon {
+    cursor: pointer;
+    height: 20px
+  }
+
+  &__date-picker-container {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    border-radius: 4px;
+    border: thin solid rgba(0, 0, 0, 0.23);
+    background-color: #feffff;
+    width: 280px;
+    height: 30px
+  }
+
+  &__date-range-picker {
+    width: 100%
+  }
+}
+
+.react-daterange-picker__wrapper {
+  border: none;
+  height: 100%
+}
+
+.react-daterange-picker__inputGroup__input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none
+}
+
+.react-daterange-picker__inputGroup__input:invalid {
+  background-color: #feffff;
+}
+
+.react-daterange-picker__inputGroup__input:focus {
+  outline: none
+}
+
+.react-daterange-picker__button:focus {
+  outline: none
+}

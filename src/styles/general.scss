@@ -1,0 +1,173 @@
+body * {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  width: auto;
+}
+html {
+  font-size: 16px;
+}
+.box-shadow-navbar-top {
+  -webkit-box-shadow: inset 1px 34px 33px -13px rgba(247,247,247,1);
+}
+.drawer-content-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  background: linear-gradient(357deg, rgba(243,243,244,1) 0%, rgba(249,249,250,1) 100%);
+  height: 100%;
+}
+.switch-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.preloader {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #807d77;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// display
+.display-none {
+  display: none;
+}
+
+// Flex items
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+// Font
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+// Width / Height
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+// margin
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+// Position
+.relative {
+  position: relative;
+}
+
+// Animation
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease-in;
+}
+
+.transition {
+  transition: all .2s ease-out;
+}
+
+// Status Icon
+.statusIcon {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  display: inline-block;
+
+  &--large {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+  }
+}
+
+// Video response
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cardTitleBlock {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    z-index: -1,
+  }
+}
+
+.cardTitle {
+  background-color: #fff;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.pl-300 {
+  padding-left: 300px;
+}
+
+@media (max-width: 1400px) {
+  .pl-300 {
+    padding-left: 250px;
+  }
+}

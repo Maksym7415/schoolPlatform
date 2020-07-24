@@ -1,0 +1,67 @@
+.new-course {
+
+  &__content-container {
+    width: 500px;
+    height: 600px
+  }
+
+  &__select-teachers-container,
+  &__select-students-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 450px;
+    // align-items: center;
+  }
+
+  &__transfer-list-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__all-teachers,
+  &__selected-teachers {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+  }
+
+  &__all-teachers-head,
+  &__selected-teachers-head {
+    padding: 10px 10px 20px 10px;
+    border-bottom: 1px solid #d4d4d4
+  }
+
+  &__transfer-list-buttons {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding: 5px;
+    justify-content: center;
+  }
+
+  &__circles-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px
+  }
+
+  &__circle {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+  }
+
+  &__active-circle {
+    background-color: #64c8bc;
+  }
+}

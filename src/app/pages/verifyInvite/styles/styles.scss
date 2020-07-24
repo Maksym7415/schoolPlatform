@@ -1,0 +1,20 @@
+.invite-admins {
+
+  &__form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafb;
+  }
+
+  &__fields-container {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    padding: 0 5px;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}

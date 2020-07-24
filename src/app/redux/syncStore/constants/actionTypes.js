@@ -1,0 +1,3 @@
+export const SYNC_STORE_ADD = '[SYNC STORE] ADD';
+export const SYNC_STORE_DELETE = '[SYNC STORE] DELETE';
+export const SYNC_STORE_DROP_ZONE = '[SYNC STORE] DROP ZONE';

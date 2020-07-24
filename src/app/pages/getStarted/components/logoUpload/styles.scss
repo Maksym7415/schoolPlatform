@@ -1,0 +1,41 @@
+.upload {
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  &__drop-zone {
+    margin-top: 40px;
+    width: 300px;
+    height: 280px;
+  }
+
+  &__button-container {
+    position: relative; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1400px) {
+  .upload {
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    &__drop-zone {
+      margin-top: 20px;
+      width: 350px;
+      height: 230px;
+    }
+  }
+}
+

@@ -1,0 +1,16 @@
+.dialog-form {
+
+  &__check-currency-container {
+    display: flex;
+  }
+
+  &__number-input::-webkit-outer-spin-button,
+  &__number-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  &__number-input[type=number] {
+    -moz-appearance: textfield;
+  }
+}

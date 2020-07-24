@@ -1,0 +1,55 @@
+.get-started-steps {
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__step {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 45px;
+  }
+
+  &__circle {
+    background-color: #64c8bc;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  &__step-title {
+    color: '#5e6c84',
+  }
+
+  &__need-help {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 40px;
+    font-size: 0.8rem;
+    cursor: pointer
+  }
+
+  &__need-help-title {
+    margin-left: 10px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .get-started-steps {
+  
+    &__step {
+      padding-bottom: 30px;
+    }
+  }
+   
+}
+
