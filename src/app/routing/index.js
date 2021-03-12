@@ -47,7 +47,8 @@ function Router(props) {
                 <SuperAdmin fallback='/' component = {TenentsItem} exact path = '/tenants/:id' />
                 <SuperAdmin fallback='/' component = {Subscriptions} exact path = '/subscriptions' />
                 <Admin fallback='/' component = {Profile} exact path = '/profile'/>
-                <Admin fallback='/' component = {GetStarted} exact path = '/get-started'/>
+                {/* <Admin fallback='/' component = {GetStarted} exact path = '/get-started'/> */}
+                <Route component={GetStarted} exact path = '/get-started'/>
                 <Admin fallback='/' component = {Staff} exact path = '/staff'/>
                 <Admin fallback='/' component = {Courses} exact path = '/courses'/>
                 <Admin fallback='/' component = {Students} exact path = '/students'/>
