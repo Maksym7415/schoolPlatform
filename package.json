@@ -17,7 +17,7 @@
     "material-table": "^1.57.2",
     "material-ui-phone-number": "^2.2.5",
     "nanoid": "^3.1.9",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-load-script": "0.0.6",
